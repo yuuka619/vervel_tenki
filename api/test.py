@@ -3,8 +3,11 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "helloWorld!!!"
+    return "できたできた!!!ここからどうしよう"
 
 
 if __name__ == "__main__":
-    app.ron()
+    app.run()
+
+
+#ローカルでみるやつ
